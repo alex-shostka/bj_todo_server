@@ -9,7 +9,7 @@ module.exports = new Sequelize(
     dialectModule: require("pg"),
     host: process.env.POSTGRES_HOST,
     port: process.env.DB_PORT,
-    connectionString: process.env.POSTGRES_URL + "?sslmode=require",
+    // connectionString: process.env.POSTGRES_URL + "?sslmode=require",
     ssl: true,
   }
 );
